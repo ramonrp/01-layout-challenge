@@ -10,10 +10,11 @@ body {
 .wrapper {
   min-width: 100%;
   background-color: var(--color-background);
-  padding: 32px;
+  padding: 16px;
   color: var(--color-text);
 }
 
+/* Header styles */
 .main-header {
   display: flex;
   align-items: center;
@@ -35,4 +36,23 @@ body {
   background-color: transparent;
   border: none;
   color: var(--color-text);
+  cursor: pointer;
+}
+
+#top-text::after {
+  content: "5";
+}
+
+.section-title {
+  margin-top: 32px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.first,
+.second {
+  display: flex;
 }
