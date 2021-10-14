@@ -13,3 +13,26 @@ body {
   padding: 32px;
   color: var(--color-text);
 }
+
+.main-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-logo {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.platform-title {
+  font-size: 1.5rem;
+}
+
+.main-header button {
+  background-color: transparent;
+  border: none;
+  color: var(--color-text);
+}
