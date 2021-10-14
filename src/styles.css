@@ -1,9 +1,15 @@
+/* Desktop first */
+
 html,
 body {
   width: 100%;
+  --color-text: white;
+  --color-background: #141414;
 }
 
 .wrapper {
   min-width: 100%;
-  background-color: #141414;
+  background-color: var(--color-background);
+  padding: 32px;
+  color: var(--color-text);
 }
