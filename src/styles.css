@@ -83,3 +83,20 @@ body {
   width: 100%;
   display: block;
 }
+
+/* Tablet and mobile */
+@media (max-width: 1280px) {
+  #top-text::after {
+    content: "3";
+  }
+  .top-item:first-of-type {
+    display: none;
+  }
+  .top-item:nth-of-type(2) {
+    display: none;
+  }
+
+  .top {
+    flex-wrap: wrap-reverse;
+  }
+}
