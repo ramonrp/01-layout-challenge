@@ -1,0 +1,9 @@
+html,
+body {
+  width: 100%;
+}
+
+.wrapper {
+  min-width: 100%;
+  background-color: #141414;
+}
