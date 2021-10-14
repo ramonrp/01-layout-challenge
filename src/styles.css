@@ -19,6 +19,9 @@ body {
   display: flex;
   align-items: center;
   gap: 24px;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-background);
 }
 
 .header-logo {
@@ -52,7 +55,31 @@ body {
   flex-direction: row-reverse;
 }
 
+.top-item {
+  flex: 1;
+  min-width: 225px;
+}
+
+.top-item img {
+  width: 100%;
+  display: block;
+}
+
 .first,
 .second {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+.item {
+  flex: 1;
+  min-width: 250px;
+  max-width: 700px;
+}
+
+.item img {
+  width: 100%;
+  display: block;
 }
