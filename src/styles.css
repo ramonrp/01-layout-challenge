@@ -33,7 +33,7 @@ body {
 }
 
 .img-logo-wrapper {
-  width: clamp(10rem, 16.3vw + 6.9rem, 20rem);
+  width: clamp(5rem, 16.3vw + 1.9rem, 15rem);
 }
 .header-logo img {
   width: 100%;
@@ -41,7 +41,7 @@ body {
 }
 
 .platform-title {
-  font-size: clamp(2rem, 8vw - 1rem, 5rem);
+  font-size: clamp(1.5rem, 6.9vw - 1.5rem, 4rem);
   font-weight: 700;
   white-space: nowrap;
 }
@@ -52,7 +52,7 @@ body {
   color: var(--color-text);
   cursor: pointer;
   transition: transform 400ms ease-in;
-  font-size: clamp(1.5rem, 1.6vw + 1.2rem, 2.5rem);
+  font-size: clamp(1rem, 4.2vw - 1.4rem, 2rem);
 }
 .main-header button:hover {
   transform: scale(1.2);
@@ -109,7 +109,7 @@ body {
 
 .item {
   flex: 1;
-  min-width: 250px;
+  min-width: 225px;
   max-width: 700px;
 }
 .item:hover img {
