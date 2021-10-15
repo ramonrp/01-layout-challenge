@@ -5,6 +5,7 @@ body {
   width: 100%;
   --color-text: white;
   --color-background: #141414;
+  font-family: "Jost", sans-serif;
 }
 
 .wrapper {
