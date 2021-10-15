@@ -34,6 +34,8 @@ body {
 
 .platform-title {
   font-size: clamp(2rem, 8vw - 1rem, 5rem);
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .main-header button {
@@ -42,7 +44,7 @@ body {
   color: var(--color-text);
   cursor: pointer;
   transition: transform 400ms ease-in;
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1.6vw + 1.2rem, 2.5rem);
 }
 .main-header button:hover {
   transform: scale(1.2);
@@ -129,5 +131,11 @@ body {
 
   .top {
     flex-wrap: wrap-reverse;
+  }
+}
+
+@media (max-width: 550px) {
+  .platform-title {
+    display: none;
   }
 }
