@@ -3,7 +3,7 @@
 html,
 body {
   height: 100%;
-  --color-text: white;
+  --color-text: #e5e5e5;
   --color-background: #141414;
   font-family: "Jost", sans-serif;
 }
@@ -41,14 +41,28 @@ body {
   border: none;
   color: var(--color-text);
   cursor: pointer;
+  transition: transform 400ms ease-in;
+  font-size: 1.5rem;
+}
+.main-header button:hover {
+  transform: scale(1.2);
+  transition: transform 200ms ease-out;
+  opacity: 0.75;
+}
+
+.main-header button:active {
+  transform: scale(1);
+  transition: transform 100ms ease-out;
 }
 
 #top-text::after {
   content: "5";
+  font-weight: 700;
 }
 
 .section-title {
   margin-top: 32px;
+  font-size: 2rem;
 }
 
 .top {
