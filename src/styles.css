@@ -32,6 +32,14 @@ body {
   gap: 8px;
 }
 
+.img-logo-wrapper {
+  width: clamp(10rem, 16.3vw + 6.9rem, 20rem);
+}
+.header-logo img {
+  width: 100%;
+  display: block;
+}
+
 .platform-title {
   font-size: clamp(2rem, 8vw - 1rem, 5rem);
   font-weight: 700;
